@@ -32,6 +32,22 @@ export default {
       "children": []
     },
     {
+      "meta": {},
+      "id": "_default_profile_svelte",
+      "_regex": {},
+      "_paramKeys": {},
+      "name": "profile",
+      "file": {
+        "path": "src/routes/profile.svelte",
+        "dir": "src/routes",
+        "base": "profile.svelte",
+        "ext": ".svelte",
+        "name": "profile"
+      },
+      "asyncModule": () => import('../src/routes/profile.svelte'),
+      "children": []
+    },
+    {
       "meta": {
         "dynamic": true,
         "dynamicSpread": true
