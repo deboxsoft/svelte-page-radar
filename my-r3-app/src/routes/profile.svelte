@@ -31,4 +31,4 @@
         <button class="text-sm border-slate-400 border rounded-lg h-8 w-16 ml-5">Cancel</button>
         <button class="text-sm bg-blue-700 text-white border rounded-lg h-8 w-16 ml-5">Save</button>
     </div>
-    
+</div>
