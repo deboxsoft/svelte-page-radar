@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sub Bab Jawab</title>
+    <title>Sub Bab Question</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-     <!-- ASIDE -->
-     <aside class=" w-64 h-full fixed overflow-y-scroll">
+    <!-- ASIDE -->
+    <aside class=" w-64 h-full fixed overflow-y-scroll">
         <div class="m-7">
             <ul>
                 <li>
@@ -108,35 +110,104 @@
     </aside>
 
     <div class=" bg-gray-100 ml-64 min-h-screen p-10  ">
+        <!-- title -->
         <div class="block">
-            <label class="block mb-2 font-semibold">Nama Sub Bab</label>
+            <label class="block mb-2 font-semibold">Judul Soal</label>
+            <input type="text" class="w-6/12 border rounded font-normal text-sm px-1 py-1 
+            border-blue-400 hover:border-blue-600 focus:border-2 focus:ring-blue-600 focus:outline-none">
+
+            <label class="block mb-2 font-semibold mt-3">Kategori Soal</label>
             <input type="text" class="w-6/12 border rounded font-normal text-sm px-1 py-1 
             border-blue-400 hover:border-blue-600 focus:border-2 focus:ring-blue-600 focus:outline-none">
         </div>
 
+        <!-- konten -->
         <div class="block mt-10 ">
             <label class="font-semibold">Konten</label>
 
             <div class="p-2 border rounded-sm border-slate-300 flex justify-between">
                 <div class="w-6/12 ">
-                    <label > bold</label>
+                    <label> bold</label>
                 </div>
                 <div class="w-6/12 ">
-                    <label >preview</label>
+                    <label>preview</label>
                 </div>
             </div>
             <div class=" flex justify-between m-0.5">
                 <div class="flex flex-grow w-6/12  ">
                     <textarea class="min-w-full border rounded font-normal text-sm px-1 py-1 
-                    border-blue-400 hover:border-blue-800 focus:border-2 focus:ring-blue-600 focus:outline-none" id="" cols="30" rows="10"></textarea>
+                    border-blue-400 hover:border-blue-800 focus:border-2 focus:ring-blue-600 focus:outline-none" id=""
+                        cols="30" rows="10"></textarea>
                 </div>
                 <div class="flex w-6/12">
                     <textarea class="min-w-full border rounded font-normal text-sm px-1 py-1 
-                    border-blue-400 hover:border-blue-800 focus:border-2 focus:ring-blue-600 focus:outline-none" name="" id="" cols="30" rows="10"></textarea>
+                    border-blue-400 hover:border-blue-800 focus:border-2 focus:ring-blue-600 focus:outline-none"
+                        name="" id="" cols="30" rows="10"></textarea>
                 </div>
             </div>
         </div>
 
+        <!-- answer -->
+        <div class="bg-white h-auto mt-10 border border-slate-300">
+
+            <div>
+                <h1 class="font-semibold ml-3 mt-2">Opsi Jawaban</h1>
+                <div class="border-b mt-3 border-gray-400 w-full"></div>
+            </div>
+
+            <div class="px-10 pb-10 pt-3">
+                <div class="flex justify-between mb-3">
+                    <h1 class=" font-semibold">Detail</h1>
+                    <select class="border border-slate-400 hover:border-slate-500 focus:outline-none rounded-md p-1"
+                        name="" id="">
+                        <option value="">Single Choice</option>
+                        <option value="">Multiple Choice</option>
+                        <option value="">True or False</option>
+                    </select>
+                </div>
+
+                <table class="border   min-w-full  text-justify ">
+                    <thead class="text-slate-700 bg-gray-200 border font-semibold text-sm  ">
+                        <tr>
+                            <th class="py-3 px-6">Jawaban</th>
+                            <th>Kunci</th>
+                            <th> </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="font-normal hover:bg-blue-100 text-sm border border-slate-300">
+                            <td class="py-3 px-6 "><input class="w-full border border-slate-300 hover:border-blue-600 focus:border-2 focus:ring-blue-600 focus:outline-none " type="text"></td>
+                            <td><input type="radio" name="" id=""></td>
+                            <td class=" hover:text-red-700 hover:cursor-pointer">h</td>
+                        </tr>
+                        <tr class="font-normal hover:bg-blue-100 text-sm border border-slate-300">
+                            <td class="py-3 px-6 "><input class="w-full border border-slate-300 hover:border-blue-600 focus:border-2 focus:ring-blue-600 focus:outline-none " type="text"></td>
+                            <td><input type="radio" name="" id=""></td>
+                            <td class=" hover:text-red-700 hover:cursor-pointer">h</td>
+                        </tr>
+                        <tr class="font-normal hover:bg-blue-100 text-sm border border-slate-300">
+                            <td class="py-3 px-6 "><input class="w-full border border-slate-300 hover:border-blue-600 focus:border-2 focus:ring-blue-600 focus:outline-none " type="text"></td>
+                            <td><input type="radio" name="" id=""></td>
+                            <td class=" hover:text-red-700 hover:cursor-pointer">h</td>
+                        </tr>       
+                        
+                        
+                    </tbody>
+
+                </table>
+
+                <div class="mt-5">
+                <a href="" class="text-slate-600 rounded-3xl mt-3 px-2 py-1 bg-blue-100">Tambah Jawaban Baru</a>
+
+                </div>
+
+
+
+                
+            </div>
+
+        </div>
+        <!-- 
         <div class="mt-5    ">
             <label class="block font-semibold">Skor</label>
             <input type="text" class="w-14 mt-2 pl-1 border rounded border-blue-400 hover:border-blue-800 focus:border-2 focus:ring-blue-600 focus:outline-none">
@@ -161,11 +232,12 @@
                     border-blue-400 hover:border-blue-800 focus:border-2 focus:ring-blue-600 focus:outline-none" name="" id="" cols="30" rows="6"></textarea>
                 </div>
             </div>
-        </div>
-       
+        </div> -->
+
         <div class=" mt-10 flex justify-between">
-            <a href="" class="border bg-slate-100 border-slate-300 px-2  rounded-lg hover:bg-red-500 hover:text-white hover:rounded-lg hover:duration-700 hover:px-3 hover:py-1 hover:border-none">Delete</a>
-            
+            <a href=""
+                class="border bg-slate-100 border-slate-300 px-2  rounded-lg hover:bg-red-500 hover:text-white hover:rounded-lg hover:duration-700 hover:px-3 hover:py-1 hover:border-none">Delete</a>
+
             <div class="">
                 <a href="" class="bg-blue-500 border border-blue-500 text-white px-4 py-1 rounded-md">Save</a>
                 <a href="" class="bg-slate-200 border border-slate-300 px-3 py-1 rounded-lg">Cancel</a>
@@ -175,4 +247,5 @@
     </div>
 
 </body>
+
 </html>

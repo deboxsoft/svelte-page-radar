@@ -1,181 +1,5 @@
-<script>
-    import "../input.css";
-</script>
 
-<!-- NAVIGASI ATAS -->
-<nav
-    class=" sticky top-0 py-4 px-8 bg-white border border-b-slate-300 md:flex md:items-center md:justify-between text-slate-700"
->
-    <span class=" text-sm font-sans font-semibold cursor-pointer ">
-        <img class="h-7 inline" src="https://lambdasolusi.co.id/images/logo.PNG" />
-        LSI
-    </span>
 
-    <div class="text-sm font-sans font-semibold leading-6 ">
-        <ul
-            class=" md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
-        >   
-            <li class="mx-4 my-6 md:my-0 hover:text-cyan-500 duration-500 ">
-                <a href="#" class="">Docs</a>
-            </li>
-            <li class="mx-4 my-6 md:my-0 hover:text-cyan-500 duration-500 ">
-                <a href="#" class="">Components</a>
-            </li>
-            <li class="mx-4 my-6 md:my-0 hover:text-cyan-500 duration-500 ">
-                <a href="#" class="">Profile</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-<!-- ASIDE KIRI -->
-<aside class="bg-white w-1/5  h-full fixed  overflow-scroll  ">
-    
-        <div class="border-0 pt-10 pb-20" >
-        <ul>
-            <li class=" ml-6 ">
-                <h5 class=" font-semibold text-slate-900 mb-3"> Bab 1 Java </h5>
-
-                <ul class=" font-normal text-sm text-slate-900 list-item antialiased ml-4" >
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">Sub Bab 1</a> 
-                    </li>
-                    <li class="mb-3  hover:text-cyan-500 duration-500">
-                        <a href="">Sub Bab 2</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">Sub Bab 3</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">Sub Bab 4</a>
-                    </li>
-                </ul>
-            </li>
-            
-            <li class="ml-6">
-                <h5 class="font-semibold text-slate-900 mt-5 mb-3"> Bab 2 GFT</h5>
-
-                <ul class="font-normal text-sm text-black  list-item antialiased ml-4 ">
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">2.1. SDTF</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">2.2. Document Piagam Project</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">2.3. Tentukan Noun and Verb</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">2.4. Proses Fast Track </a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">2.5. Class Diagram </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="ml-6">
-                <h5 class="font-semibold text-slate-900 mt-5 mb-3"> Bab 3 OOP</h5>
-
-                <ul class="font-normal text-sm text-black  list-item antialiased ml-4 ">
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">2.1. SDTF</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">2.2. Document Piagam Project</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">2.3. Tentukan Noun and Verb</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">2.4. Proses Fast Track </a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">2.5. Class Diagram </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    
-    </div>
-</aside>
-
-<!-- ASIDE KANAN -->
-<div class=" bg-white fixed z-10 top-[4rem] bottom-0 right-[max(0px,calc(50%-45rem))] w-[18rem] overflow-y-auto list-item xl:block" >
-    <div class=" text-sm text-black font-normal  decoration-slice p-6 list-item antialiased" >
-        <ul>
-            <li class=" ml-6 ">
-                <h5 class=" font-semibold text-slate-900 mb-3"> Pengantar </h5>
-
-                <ul class=" font-normal text-sm text-slate-900 list-item antialiased ml-4" >
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">Definisi</a> 
-                    </li>
-                    <li class="mb-3  hover:text-cyan-500 duration-500">
-                        <a href="">Perkembangan Java</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">Sejarah Java</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">Update Java</a>
-                    </li>
-                </ul>
-            </li>
-            
-            <li class="ml-6">
-                <h5 class="font-semibold text-slate-900 mt-5 mb-3"> Perangkat</h5>
-
-                <ul class="font-normal text-sm text-black  list-item antialiased ml-4 ">
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href=""> JDK</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">JRE</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href=""> JVM</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">SDK </a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">ESP</a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="ml-6">
-                <h5 class="font-semibold text-slate-900 mt-5 mb-3"> Instalasi</h5>
-
-                <ul class="font-normal text-sm text-black  list-item antialiased ml-4 ">
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">Sign Up Oracle</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">Download JDK</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">Instalasi Windows 7</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">Instalasi Windows 8 </a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">Install Netbeans</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">Proyek Kosong</a>
-                    </li>
-                    <li class="mb-3 hover:text-cyan-500 duration-500">
-                        <a href="">Proyek Hello World</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        
-    </div>
-</div>
 
 <!-- MAIN VIEW -->
 <main class="mt-10 mb-10 inline-block ml-72 mr-72 text-justify">
@@ -301,3 +125,178 @@
         </div> -->
     
 
+
+
+ <!-- NAVIGASI ATAS -->
+<!-- <nav class=" sticky top-0 py-4 px-8 bg-white border border-b-slate-300 md:flex md:items-center md:justify-between text-slate-700">
+    <span class=" text-sm font-sans font-semibold cursor-pointer ">
+        <img class="h-7 inline" src="https://lambdasolusi.co.id/images/logo.PNG" />
+        LSI
+    </span>
+
+    <div class="text-sm font-sans font-semibold leading-6 ">
+        <ul
+            class=" md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+        >   
+            <li class="mx-4 my-6 md:my-0 hover:text-cyan-500 duration-500 ">
+                <a href="#" class="">Docs</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0 hover:text-cyan-500 duration-500 ">
+                <a href="#" class="">Components</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0 hover:text-cyan-500 duration-500 ">
+                <a href="#" class="">Profile</a>
+            </li>
+        </ul>
+    </div>
+</nav> -->
+
+<!-- ASIDE KIRI -->
+<!-- <aside class="bg-white w-1/5  h-full fixed  overflow-scroll  ">   
+        <div class="border-0 pt-10 pb-20" >
+        <ul>
+            <li class=" ml-6 ">
+                <h5 class=" font-semibold text-slate-900 mb-3"> Bab 1 Java </h5>
+
+                <ul class=" font-normal text-sm text-slate-900 list-item antialiased ml-4" >
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">Sub Bab 1</a> 
+                    </li>
+                    <li class="mb-3  hover:text-cyan-500 duration-500">
+                        <a href="">Sub Bab 2</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">Sub Bab 3</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">Sub Bab 4</a>
+                    </li>
+                </ul>
+            </li>
+            
+            <li class="ml-6">
+                <h5 class="font-semibold text-slate-900 mt-5 mb-3"> Bab 2 GFT</h5>
+
+                <ul class="font-normal text-sm text-black  list-item antialiased ml-4 ">
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">2.1. SDTF</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">2.2. Document Piagam Project</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">2.3. Tentukan Noun and Verb</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">2.4. Proses Fast Track </a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">2.5. Class Diagram </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="ml-6">
+                <h5 class="font-semibold text-slate-900 mt-5 mb-3"> Bab 3 OOP</h5>
+
+                <ul class="font-normal text-sm text-black  list-item antialiased ml-4 ">
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">2.1. SDTF</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">2.2. Document Piagam Project</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">2.3. Tentukan Noun and Verb</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">2.4. Proses Fast Track </a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">2.5. Class Diagram </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    
+    </div>
+</aside> -->
+
+
+
+<!-- ASIDE KANAN -->
+<!-- <div class=" bg-white fixed z-10 top-[4rem] bottom-0 right-[max(0px,calc(50%-45rem))] w-[18rem] overflow-y-auto list-item xl:block" >
+    <div class=" text-sm text-black font-normal  decoration-slice p-6 list-item antialiased" >
+        <ul>
+            <li class=" ml-6 ">
+                <h5 class=" font-semibold text-slate-900 mb-3"> Pengantar </h5>
+
+                <ul class=" font-normal text-sm text-slate-900 list-item antialiased ml-4" >
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">Definisi</a> 
+                    </li>
+                    <li class="mb-3  hover:text-cyan-500 duration-500">
+                        <a href="">Perkembangan Java</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">Sejarah Java</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">Update Java</a>
+                    </li>
+                </ul>
+            </li>
+            
+            <li class="ml-6">
+                <h5 class="font-semibold text-slate-900 mt-5 mb-3"> Perangkat</h5>
+
+                <ul class="font-normal text-sm text-black  list-item antialiased ml-4 ">
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href=""> JDK</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">JRE</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href=""> JVM</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">SDK </a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">ESP</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="ml-6">
+                <h5 class="font-semibold text-slate-900 mt-5 mb-3"> Instalasi</h5>
+
+                <ul class="font-normal text-sm text-black  list-item antialiased ml-4 ">
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">Sign Up Oracle</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">Download JDK</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">Instalasi Windows 7</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">Instalasi Windows 8 </a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">Install Netbeans</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">Proyek Kosong</a>
+                    </li>
+                    <li class="mb-3 hover:text-cyan-500 duration-500">
+                        <a href="">Proyek Hello World</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        
+    </div>
+</div> -->
